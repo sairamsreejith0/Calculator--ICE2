@@ -1,4 +1,4 @@
-import unittest
+import unittest                                               #testcases to check multiplication and division functions
 from calc_iteration2 import Calculator2
 class MultiplicationTest(unittest.TestCase):
     def test_multiply_positiveNumber(self):

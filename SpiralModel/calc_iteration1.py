@@ -1,25 +1,24 @@
-class Calculator1:
-    def addition(value1,value2):
+class Calculator1:                  #1st iteration
+    def addition(value1,value2):    #addition function to add two numbers
         return value1+value2
 
-    def subtraction(value1,value2):
+    def subtraction(value1,value2):  #subtraction function to subtract two numbers
         return value1-value2 
     
 
 if __name__ == '__main__':
-    while(True):
-        print("PHASE-1")
-        print("menu")
+    while(True):               
+        print("menu")                #giving options to user to choose addition,subtraction,multiplication,division or exit
         print("1.addition")
-        print("2.subtraction")
+        print("2.subtraction")               
         print("3.Exit")
         print("choose a number(1,2,3)")
-        try:
-            choice = int(input())
+        try:                         #try and except block is used for risk analysis by identifying exceptions and handling them
+            choice = int(input())    #taking input from user
         except Exception as err:
-            print(err)    
+            print(err)               #printing the exception
             continue
-        if choice==1:
+        if choice==1:                          #risk analysis needed to be done for each functionality separately
             try:
                 print("enter a number")
                 number1 = int(input())

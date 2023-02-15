@@ -1,12 +1,12 @@
-class Calculator3:
+class Calculator3:                          #final iteration -previous iteration functionalities are integrated and made this final iteration
     def addition(value1,value2):
         return value1+value2
     def subtraction(value1,value2):
         return value1-value2 
     def multiplication(value1,value2):
         return value1*value2 
-    def division(value1,value2):
-        return value1/value2
+    def division(value1,value2):             
+        return value1/value2                        #modification in division function to get floating point answers
     
 
 if __name__ == '__main__':

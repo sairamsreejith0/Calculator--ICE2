@@ -1,20 +1,19 @@
 import unittest
 class Calculator1:
-    def addition(value1,value2):
+    def addition(value1,value2): #addition function
         return value1+value2
 
-    def subtraction(value1,value2):
+    def subtraction(value1,value2):   #subtraction function
         return value1-value2 
 
 if __name__ == '__main__':
     while(True):
-        print("PHASE-1")
         print("menu")
         print("1.addition")
         print("2.subtraction")
         print("3.Exit")
         print("choose a number(1,2,3)")
-        try:
+        try:                                #riskanalysis using try except
             choice = int(input())
             if choice==1:
                 print("enter a number")

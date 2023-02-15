@@ -1,7 +1,7 @@
 class Calculator2:
-    def multiplication(value1,value2):
+    def multiplication(value1,value2):         #multiplication function
         return value1*value2 
-    def division(value1,value2):
+    def division(value1,value2):               #division function
         return value1//value2
     
     

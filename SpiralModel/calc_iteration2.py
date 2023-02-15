@@ -1,13 +1,13 @@
-class Calculator2:
-    def multiplication(value1,value2):
+class Calculator2:                         #2nd iteration
+    def multiplication(value1,value2):     #multiplication function to multiply two numbers
         return value1*value2 
-    def division(value1,value2):
-        return value1//value2
+    def division(value1,value2):           #division function to multiply two numbers
+        return value1//value2              #integer division
     
     
 
 if __name__ == '__main__':
-    while(True):
+    while(True):                                         
         print("menu")
         print("1.multiplication")
         print("2.division")
