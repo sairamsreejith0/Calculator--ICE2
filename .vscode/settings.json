@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./WaterfallModel",
+        "./AgileModel",
         "-p",
         "*test*.py"
     ],
