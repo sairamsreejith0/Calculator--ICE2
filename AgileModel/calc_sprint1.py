@@ -1,10 +1,10 @@
+import unittest
 class Calculator1:
     def addition(value1,value2):
         return value1+value2
 
     def subtraction(value1,value2):
         return value1-value2 
-    
 
 if __name__ == '__main__':
     while(True):
@@ -16,33 +16,25 @@ if __name__ == '__main__':
         print("choose a number(1,2,3)")
         try:
             choice = int(input())
-        except Exception as err:
-            print(err)    
-            continue
-        if choice==1:
-            try:
+            if choice==1:
                 print("enter a number")
                 number1 = int(input())
                 print("enter a number")
                 number2 = int(input())
                 print('addition of {} and {} is {}'.format(number1,number2,Calculator1.addition(number1,number2)))
-            except Exception as err:
-                print(err)
-                
-          
-        elif choice==2:
-            try:
+            elif choice==2:
                 print("enter a number")
                 number1 = int(input())
                 print("enter a number")
                 number2 = int(input())
                 print('subtraction of {} and {} is {}'.format(number1,number2,Calculator1.subtraction(number1,number2)))
-            except Exception as err:
-                print(err)
-                    
-        elif choice==3:
-            break
-        else:
-            pass        
-                
             
+            elif choice==3:
+                break
+            else:
+                pass
+        except Exception as err:
+            print(err)            
+                
+    
+    

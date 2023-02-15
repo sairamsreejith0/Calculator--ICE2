@@ -20,48 +20,40 @@ if __name__ == '__main__':
         print("5.exit")
         print("choose a number(1,2,3,4 or 5)")
         try:
-            choice = int(input())
-        except Exception as err:
-            print(err)    
-        if choice==1:
-            try:
+            choice = int(input())    
+            if choice==1:
                 print("enter a number")
                 number1 = int(input())
                 print("enter a number")
                 number2 = int(input())
                 print('addition of {} and {} is {}'.format(number1,number2,Calculator3.addition(number1,number2)))
-            except Exception as err:
-                print(err)    
-        elif choice==2:
-            try:
+               
+            elif choice==2:
                 print("enter a number")
                 number1 = int(input())
                 print("enter a number")
                 number2 = int(input())
                 print('subtraction of {} and {} is {}'.format(number1,number2,Calculator3.subtraction(number1,number2)))
-            except Exception as err:
-                print(err)
-        elif choice==3:
-            try:
+          
+            elif choice==3:
                 print("enter a number")
                 number1 = int(input())
                 print("enter a number")
                 number2 = int(input())
                 print('multiplication of {} and {} is {}'.format(number1,number2,Calculator3.multiplication(number1,number2)))
-            except Exception as err:
-                print(err)        
-        elif choice==4:
-            try:
+                   
+            elif choice==4:
                 print("enter a number")
                 number1 = int(input())
                 print("enter a number")
                 number2 = int(input())
                 print('division of {} and {} is {}'.format(number1,number2,Calculator3.division(number1,number2)))
-            except Exception as err:
-                print(err)          
-        elif choice==5:
-            break
-        else:
-            pass        
+                  
+            elif choice==5:
+                break
+            else:
+                pass      
+        except Exception as err:
+            print(err)      
                 
             
