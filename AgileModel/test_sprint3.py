@@ -33,7 +33,7 @@ class MultiplicationTest(unittest.TestCase):
 class DivisionTest(unittest.TestCase):
     def test_division_positiveNumber(self):
         self.actual = Calculator3.division(10,5)
-        self.expected = 3
+        self.expected = 2
         self.assertEqual(self.actual,self.expected)
     def test_division_negativeNumber(self):
         self.actual = Calculator3.division(-24,-2)
