@@ -5,7 +5,6 @@ class Calculator1:                  #1st iteration
     def subtraction(value1,value2):  #subtraction function to subtract two numbers
         return value1-value2 
     
-
 if __name__ == '__main__':
     while(True):               
         print("menu")                #giving options to user to choose addition,subtraction,multiplication,division or exit

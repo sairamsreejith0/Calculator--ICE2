@@ -8,7 +8,6 @@ class Calculator3:                          #final iteration -previous iteration
     def division(value1,value2):             
         return value1/value2                        #modification in division function to get floating point answers
     
-
 if __name__ == '__main__':
     while(True):
         print("FINAL PHASE")

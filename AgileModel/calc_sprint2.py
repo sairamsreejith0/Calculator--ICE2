@@ -3,8 +3,6 @@ class Calculator2:
         return value1*value2 
     def division(value1,value2):               #division function
         return value1//value2
-    
-    
 
 if __name__ == '__main__':
     while(True):

@@ -2,9 +2,7 @@ class Calculator2:                         #2nd iteration
     def multiplication(value1,value2):     #multiplication function to multiply two numbers
         return value1*value2 
     def division(value1,value2):           #division function to multiply two numbers
-        return value1//value2              #integer division
-    
-    
+        return value1//value2              #integer division 
 
 if __name__ == '__main__':
     while(True):                                         
